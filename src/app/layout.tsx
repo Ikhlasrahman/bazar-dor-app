@@ -4,6 +4,7 @@ import "./globals.css";
 import CategoryNav from "@/components/CategoryNav";
 import PriceMarquee from "@/components/PriceMarquee";
 import MainNav from "@/components/MainNav";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
          <CategoryNav/>
          <PriceMarquee/>
         {children}
+        <Footer/>
        </div>
         </body>
     </html>
