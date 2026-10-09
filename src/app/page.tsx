@@ -1,4 +1,5 @@
 
+import HeroSection from "@/components/HeroSection";
 import ProductCard from "@/components/ProductCard";
 import { getProducts } from "@/services/productServices";
 
@@ -14,7 +15,7 @@ export default async function HomePage() {
 
   return (
     <main className="mx-auto max-w-7xl p-6">
- 
+     <HeroSection/>
       {/* Price Hike */}
       <section>
 
