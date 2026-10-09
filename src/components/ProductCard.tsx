@@ -1,5 +1,6 @@
 
 import type { Product } from "@/types/product";
+import Link from "next/link";
 
 type ProductCardProps = {
     product: Product;
@@ -8,7 +9,8 @@ type ProductCardProps = {
 export default function ProductCard({ product }: ProductCardProps) {
     return (
         <article className="card border border-base-300 bg-base-100 shadow-sm">
-            <div className="card-body">
+            <Link href={`/products/${product.id}`} className="card border border-base-300 bg-base-100 shadow-sm transition hover:border-success hover:shadow-md">
+                <div className="card-body">
                 <div className="flex items-center gap-3">
                     <div className="text-3xl">{product.image}</div>
 
@@ -52,6 +54,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     </span>
                 </div>
             </div>
+            </Link>
         </article>
     );
 }
