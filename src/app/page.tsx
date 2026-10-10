@@ -19,7 +19,7 @@ export default async function HomePage() {
       {/* Price Hike */}
       <section>
 
-        <section className="mb-10">
+        <section className="mb-10 mt-4">
           <div className="mb-4">
             <h2 className="text-2xl font-semibold">
               <span className=" text-red-700">▲</span>
