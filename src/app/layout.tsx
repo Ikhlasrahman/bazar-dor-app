@@ -5,6 +5,7 @@ import CategoryNav from "@/components/CategoryNav";
 import PriceMarquee from "@/components/PriceMarquee";
 import MainNav from "@/components/MainNav";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
          <CategoryNav/>
          <PriceMarquee/>
         {children}
+        <Toaster/>
         <Footer/>
        </div>
         </body>
