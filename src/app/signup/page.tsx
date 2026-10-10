@@ -75,11 +75,11 @@ export default function SignUpPage() {
         <main className="flex min-h-[calc(100vh-160px)] flex-col items-center justify-center bg-base-200/40 px-4 py-12">
             {/* Heading */}
             <header className="mb-8 text-center">
-                <h1 className="text-3xl font-bold text-white">
+                <h1 className="text-3xl font-bold text-black">
                     অ্যাকাউন্ট তৈরি করুন
                 </h1>
                 <p className="mt-2 text-sm text-gray-400">
-                    বিনামূল্যে সাইন আপ করে সব বিস্তারিত দাম দেখুন।
+                    বিনা খরচে সাইন আপ করে সব বিস্তারিত দাম দেখুন।
                 </p>
             </header>
 

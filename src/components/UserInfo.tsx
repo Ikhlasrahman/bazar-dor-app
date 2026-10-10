@@ -97,7 +97,7 @@ const UserInfo = () => {
             সাইন ইন
           </Link>
 
-          <Link href="/signup" className="btn btn-success btn-sm">
+          <Link href="/signup" className="btn bg-green-600 text-white btn-sm">
             সাইন আপ
           </Link>
         </div>
