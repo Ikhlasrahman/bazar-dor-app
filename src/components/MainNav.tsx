@@ -9,7 +9,7 @@ const MainNav = () => {
         <div className="flex items-center gap-2">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/public/bazar-hero.png"
               alt="বাজার দর লোগো"
               width={60}
               height={60}

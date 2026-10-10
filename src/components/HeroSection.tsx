@@ -39,7 +39,7 @@ const HeroSection = () => {
           className="flex w-full max-w-xs items-end justify-center gap-3 rounded-2xl bg-base-200/50 px-5 pb-6 pt-10 sm:max-w-sm"
           aria-hidden="true"
         >
-          <Image src={'/logo.png'} height={263} width={315} alt="Logo"/>
+          <Image src={'../bazar-hero.png'} height={263} width={315} alt="Logo"/>
         </div>
       </div>
     </section>
